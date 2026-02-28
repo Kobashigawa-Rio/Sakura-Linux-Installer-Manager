@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Sakura Linux Installer Manager
-Comment=Beginner friendly .deb installer
-Exec=python3 /opt/sakura-installer/sakura-installer.py %f
-Icon=sakura-installer
-Type=Application
-Categories=System;
-Terminal=false
-MimeType=application/vnd.debian.binary-package;
