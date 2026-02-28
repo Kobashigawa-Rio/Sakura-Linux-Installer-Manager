@@ -1,0 +1,9 @@
+Package: sakura-installer
+Version: 0.1.2-alpha
+Section: system
+Priority: optional
+Architecture: all
+Maintainer: Sakura Linux Team
+Depends: python3, python3-gi
+Description: Sakura Linux Installer Manager
+ Beginner friendly .deb installer for Sakura Linux
