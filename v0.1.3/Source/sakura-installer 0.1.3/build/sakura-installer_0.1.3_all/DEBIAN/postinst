@@ -1,0 +1,14 @@
+#!/bin/bash
+
+update-desktop-database /usr/share/applications
+
+xdg-mime default sakura-installer.desktop application/vnd.debian.binary-package
+
+if [ -f /usr/share/applications/snap-store_ubuntu-software-local-file.desktop ]; then
+    sed -i 's/application/vnd.debian.binary-package;//g' \
+    /usr/share/applications/snap-store_ubuntu-software-local-file.desktop
+fi
+
+update-mime-database /usr/share/mime
+
+exit 0
