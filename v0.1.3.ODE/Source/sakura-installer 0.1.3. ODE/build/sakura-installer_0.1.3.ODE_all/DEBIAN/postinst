@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Update desktop database
+update-desktop-database /usr/share/applications
+
+# Force Sakura as default .deb handler
+xdg-mime default sakura-installer.desktop application/vnd.debian.binary-package
+
+# Update MIME database
+update-mime-database /usr/share/mime
+
+exit 0

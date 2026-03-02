@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Sakura Installer
+Comment=Beginner friendly .deb installer ver 0.1.3 ODE (Other Distro Edition) for Sakura Linux
+Exec=python3 /opt/sakura-installer/sakura-installer.py %f
+Icon=sakura-installer
+Type=Application
+Categories=System;
+Terminal=false
+MimeType=application/vnd.debian.binary-package;
